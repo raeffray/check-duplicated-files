@@ -1,0 +1,13 @@
+redis:
+  host: localhost
+  port: 6379
+
+app:
+  supportedfiles:
+    - jpg
+    - jpeg
+    - png
+    - gif
+    - mpeg
+    
+  outputfile: /Users/raeffray/sourcecode/check-files/out/result.json
